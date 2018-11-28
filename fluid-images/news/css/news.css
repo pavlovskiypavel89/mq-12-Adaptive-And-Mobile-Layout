@@ -1,14 +1,4 @@
 .container {
-<<<<<<< HEAD
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	width: 70.28%;
-	/* 70.28% = (960/1366) * 100% */
-	max-width: 1300px;
-	min-width: 768px;
-	padding: 15px 10px;
-=======
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -17,7 +7,6 @@
   max-width: 1300px;
   min-width: 768px;
   padding: 15px 10px;
->>>>>>> 678faf9f98fd4444031d5028baab39ad3638c92a
 }
 
 .card {
