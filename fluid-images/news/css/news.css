@@ -1,4 +1,5 @@
 .container {
+<<<<<<< HEAD
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -7,22 +8,32 @@
 	max-width: 1300px;
 	min-width: 768px;
 	padding: 15px 10px;
+=======
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 70.28%;
+  /* 70.28% = (960/1366) * 100% */
+  max-width: 1300px;
+  min-width: 768px;
+  padding: 15px 10px;
+>>>>>>> 678faf9f98fd4444031d5028baab39ad3638c92a
 }
 
 .card {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	width: calc(50% - 10px);
-	padding: 30px 20px;
-	border: 1px solid #d5d4d4;
-	margin-bottom: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: calc(50% - 10px);
+  padding: 30px 20px;
+  border: 1px solid #d5d4d4;
+  margin-bottom: 20px;
 }
 
 .card:nth-child(even) {
-	margin-left: 10px;
+  margin-left: 10px;
 }
 
 .card:nth-child(odd) {
-	margin-right: 10px;
+  margin-right: 10px;
 }
