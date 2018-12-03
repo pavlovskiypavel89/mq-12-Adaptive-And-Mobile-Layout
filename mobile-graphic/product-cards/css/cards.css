@@ -1,0 +1,22 @@
+@media screen and (min-width: 769px) {
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  
+  .product {
+    flex-basis: 32%;
+  }
+  
+  .product:nth-child(3n+2) {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+
+.product__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
