@@ -1,0 +1,14 @@
+@media (orientation: landscape) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+
+    /* Дополнительные стили для выравнивания фотографий по вертикали: */
+    align-content: center;
+    min-height: 100vh;
+  }
+  
+  .card {
+    flex-basis: 50%;
+  }
+}
