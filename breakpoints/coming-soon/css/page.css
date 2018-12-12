@@ -1,9 +1,9 @@
 .welcome {
   position: relative;
+  min-height: 100vh;
   color: #ffffff;
-  min-height: 565px;
   
-  background-image: url(../img/man-full.jpg);
+  background-image: url('../img/man-full.jpg');
   background-repeat: no-repeat;
   background-position: center 50%;
   background-color: #000000;
@@ -11,16 +11,15 @@
 }
 
 @media (max-width: 1023px) {
-
   .container {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
   }
 }
 
 @media (min-width: 1024px) {
   .welcome__info {
-    padding-left: 85px;
     max-width: 700px;
+    padding-left: 35vh;
   } 
 }
