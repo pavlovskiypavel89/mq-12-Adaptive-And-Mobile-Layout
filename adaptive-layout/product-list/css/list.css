@@ -4,11 +4,25 @@
 }
 
 .product {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;  
   box-sizing: border-box;
-  flex-basis: 20%;	
   padding: 1.5em;
-  font-size: 16px;	
+  font-size: 16px;  
 }
+
+.product__body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-top: 1.5em;
+}
+
+.product__name {
+  margin-top: 0;
+  margin-bottom: auto; 
+}  
 
 @media (min-width: 960px) and (max-width: 1300px) {
   .product {
